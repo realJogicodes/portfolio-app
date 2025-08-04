@@ -34,7 +34,7 @@ function App() {
 						<h2 className="text-2xl font-bold">Changelog</h2>
 						<dl>
 							<dd>August 4th, 2025</dd>
-							<dt>Project Started and hosted on Vercel.</dt>
+							<dt>Project started and hosted on Vercel.</dt>
 						</dl>
 					</section>
 				</div>
