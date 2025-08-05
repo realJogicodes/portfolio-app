@@ -3,6 +3,7 @@ import Container from './components/Container';
 import H1 from './components/typography/H1';
 import ChangeLog from './components/ChangeLog';
 import Skills from './components/Skills';
+import ExternalLink from './components/typography/ExternalLink';
 
 function App() {
 	return (
@@ -15,11 +16,7 @@ function App() {
 					this site is: my React learning journey, turned into a portfolio.
 				</p>
 				<p className="">
-					The code for this React app is available on{' '}
-					<a className="underline text-blue-600" href="https://github.com/realJogicodes/portfolio-app">
-						GitHub
-					</a>
-					.
+					The code for this React app is available on <ExternalLink href="https://github.com/realJogicodes/portfolio-app">GitHub</ExternalLink>.
 				</p>
 			</main>
 			<Skills />
