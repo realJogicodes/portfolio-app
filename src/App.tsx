@@ -1,4 +1,5 @@
 import './App.css';
+import H2 from './components/headings/H2';
 
 function App() {
 	return (
@@ -14,7 +15,7 @@ function App() {
 						</p>
 					</main>
 					<section className="bg-slate-100 p-4 rounded-2xl flex flex-col items-start gap-4 mt-4">
-						<h2 className="text-2xl font-bold">Skills</h2>
+						<H2>Skills</H2>
 						<p>
 							Predating this challenge, I know some programming already. I've been writing code for my own needs, the web and for iOS since 2017. I started with python, before
 							learning Flask, Svelte and Swift.
@@ -31,7 +32,7 @@ function App() {
 						</ul>
 					</section>
 					<section className="mt-8">
-						<h2 className="text-2xl font-bold">Changelog</h2>
+						<H2>Changelog</H2>
 						<dl>
 							<dd>August 4th, 2025</dd>
 							<dt>Project started and hosted on Vercel.</dt>
