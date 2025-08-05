@@ -11,8 +11,8 @@ function App() {
 				<H1>React Portfolio App</H1>
 				<p className="text-2xl">Documenting the journey of learning React</p>
 				<p className="text-lg">
-					Hi! I am Jogi, a web developer who knows Svelte pretty well. I do not know much about React. In my opinion, there's no better way of learning something than doing it.
-					Hence this page. Building it, I am learning React, and of course I am building this using React.
+					Hi, I'm Jogi — a web developer who’s pretty handy with Svelte, and now diving into React. I believe the best way to learn is by building real things. That’s exactly what
+					this site is: my React learning journey, turned into a portfolio.
 				</p>
 			</main>
 			<Skills />
