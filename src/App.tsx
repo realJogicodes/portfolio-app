@@ -1,6 +1,7 @@
 import './App.css';
 import H1 from './components/headings/H1';
 import H2 from './components/headings/H2';
+import ChangeLog from './components/ChangeLog';
 
 function App() {
 	const skills = ['JavaScript', 'Svelte', 'Python', 'Swift', 'TailwindCSS', 'SQLite3', 'PocketBase', 'Supabase'];
@@ -28,13 +29,7 @@ function App() {
 							))}
 						</ul>
 					</section>
-					<section className="mt-8">
-						<H2>Changelog</H2>
-						<dl>
-							<dt>August 4th, 2025</dt>
-							<dd>Project started and hosted on Vercel.</dd>
-						</dl>
-					</section>
+					<ChangeLog />
 				</div>
 			</div>
 		</>
