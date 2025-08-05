@@ -1,4 +1,5 @@
 import './App.css';
+import H1 from './components/headings/H1';
 import H2 from './components/headings/H2';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 			<div className="flex justify-center pt-4">
 				<div className="container max-w-7xl">
 					<main className="flex flex-col items-start gap-3">
-						<h1 className="font-bold text-6xl">React Portfolio App</h1>
+						<H1>React Portfolio App</H1>
 						<p className="text-2xl">Documenting the journey of learning React</p>
 						<p className="text-lg">
 							Hi! I am Jogi, a web developer who knows Svelte pretty well. I do not know much about React. In my opinion, there's no better way of learning something than doing it.
