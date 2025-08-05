@@ -1,4 +1,4 @@
-import H2 from './headings/H2';
+import H2 from './typography/H2';
 
 export default function Skills() {
 	const skills = ['JavaScript', 'Svelte', 'Python', 'Swift', 'TailwindCSS', 'SQLite3', 'PocketBase', 'Supabase'];

@@ -1,4 +1,4 @@
-import H2 from './headings/H2';
+import H2 from './typography/H2';
 
 export default function ChangeLog() {
 	return (

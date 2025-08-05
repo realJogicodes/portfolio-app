@@ -1,6 +1,6 @@
 import './App.css';
 import Container from './components/Container';
-import H1 from './components/headings/H1';
+import H1 from './components/typography/H1';
 import ChangeLog from './components/ChangeLog';
 import Skills from './components/Skills';
 
