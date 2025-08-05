@@ -3,6 +3,7 @@ import H1 from './components/headings/H1';
 import H2 from './components/headings/H2';
 
 function App() {
+	const skills = ['JavaScript', 'Svelte', 'Python', 'Swift', 'TailwindCSS', 'SQLite3', 'PocketBase', 'Supabase'];
 	return (
 		<>
 			<div className="flex justify-center pt-4">
@@ -22,14 +23,9 @@ function App() {
 							learning Flask, Svelte and Swift.
 						</p>
 						<ul className="flex gap-2">
-							<li className=" border-1 border-black rounded-full px-2">JavaScript</li>
-							<li className=" border-1 border-black rounded-full px-2">Svelte</li>
-							<li className=" border-1 border-black rounded-full px-2">Python</li>
-							<li className=" border-1 border-black rounded-full px-2">Swift</li>
-							<li className=" border-1 border-black rounded-full px-2">TailwindCSS</li>
-							<li className=" border-1 border-black rounded-full px-2">SQlite3</li>
-							<li className=" border-1 border-black rounded-full px-2">PocketBase</li>
-							<li className=" border-1 border-black rounded-full px-2">Supabase</li>
+							{skills.map((skill) => (
+								<li className=" border-1 border-black rounded-full px-2">{skill}</li>
+							))}
 						</ul>
 					</section>
 					<section className="mt-8">
