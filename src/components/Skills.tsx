@@ -6,8 +6,8 @@ export default function Skills() {
 		<section className="bg-slate-100 p-4 rounded-2xl flex flex-col items-start gap-4 mt-4">
 			<H2>Skills</H2>
 			<p>
-				Predating this challenge, I know some programming already. I've been writing code for my own needs, the web and for iOS since 2017. I started with python, before learning
-				Flask, Svelte and Swift.
+				Before I started learning React, I already had some programming experience. I’ve been writing code since 2017, starting with simple tools in Python, then building web apps
+				from 2019 and iOS projects from 2025. I started with Python and Flask, then moved to JavaScript with Svelte, and later learned Swift to write native iOS apps.
 			</p>
 			<ul className="flex gap-2">
 				{skills.map((skill) => (
