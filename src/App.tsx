@@ -1,8 +1,8 @@
 import './App.css';
-import Container from './components/Container';
 import ChangeLog from './components/ChangeLog';
-import Skills from './components/Skills';
+import Container from './components/Container';
 import Hero from './components/Hero';
+import Skills from './components/Skills';
 
 function App() {
 	return (
