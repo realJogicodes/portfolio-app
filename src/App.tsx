@@ -31,8 +31,8 @@ function App() {
 					<section className="mt-8">
 						<H2>Changelog</H2>
 						<dl>
-							<dd>August 4th, 2025</dd>
-							<dt>Project started and hosted on Vercel.</dt>
+							<dt>August 4th, 2025</dt>
+							<dd>Project started and hosted on Vercel.</dd>
 						</dl>
 					</section>
 				</div>
