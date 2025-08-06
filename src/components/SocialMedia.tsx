@@ -1,12 +1,12 @@
 import H2 from './typography/H2';
-import ExternalLink from './typography/ExternalLink';
-import { SiGithub, SiYoutube, SiX } from '@icons-pack/react-simple-icons';
+import { SiGithub, SiYoutube, SiX, SiBluesky } from '@icons-pack/react-simple-icons';
 
 export default function SocialMedia() {
 	const socialMedia = [
 		{ name: 'GitHub', href: 'https://github.com/realJogicodes', hasIcon: true, icon: <SiGithub /> },
 		{ name: 'X.com', href: 'https://x.com/jogicodes', hasIcon: true, icon: <SiX /> },
 		{ name: 'YouTube', href: 'https://www.youtube.com/@jogicodes', hasIcon: true, icon: <SiYoutube /> },
+		{ name: 'BlueSky', href: 'https://bsky.app/@jogicodes', hasIcon: true, icon: <SiBluesky /> },
 		{ name: 'LinkedIn', href: 'https://www.linkedin.com/in/jogi-c-17b9b4309/', hasIcon: false }
 	];
 	return (
