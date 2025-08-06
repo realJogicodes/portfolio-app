@@ -9,7 +9,7 @@ export default function Skills() {
 				Before I started learning React, I already had some programming experience. I’ve been writing code since 2017, starting with simple tools in Python, then building web apps
 				from 2019 and iOS projects from 2025. I started with Python and Flask, then moved to JavaScript with Svelte, and later learned Swift to write native iOS apps.
 			</p>
-			<ul className="flex gap-2">
+			<ul className="flex flex-wrap gap-2">
 				{skills.map((skill) => (
 					<li className=" border-1 border-black rounded-full px-2">{skill}</li>
 				))}
