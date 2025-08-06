@@ -6,6 +6,8 @@ export default function ChangeLog() {
 		<section className="mt-8">
 			<H2>Changelog</H2>
 			<dl>
+				<DT>August 6th, 2025</DT>
+				<dd>Refactor: Social media component added.</dd>
 				<DT>August 5th, 2025</DT>
 				<dd>
 					Refactor: App container, skills section, hero section, external link, H1, H2, DT and change log components added. Code made more maintainable. Display font added,
