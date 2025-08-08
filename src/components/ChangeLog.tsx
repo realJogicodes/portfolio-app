@@ -6,6 +6,8 @@ export default function ChangeLog() {
 		<section className="mt-8">
 			<H2>Changelog</H2>
 			<dl>
+				<DT>August 8th, 2025</DT>
+				<dd>Avatar image added to hero section.</dd>
 				<DT>August 6th, 2025</DT>
 				<dd>Refactor: Social media component added.</dd>
 				<DT>August 5th, 2025</DT>
