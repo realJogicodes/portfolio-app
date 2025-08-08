@@ -5,7 +5,7 @@ export default function ChangeLog() {
 	const changelog = [
 		{
 			date: 'August 8th, 2025',
-			change: 'Avatar image added to hero section.'
+			change: 'Avatar image added to hero section, change log refactored'
 		},
 		{
 			date: 'August 6th, 2025',
